@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 4</name>
+    <events>
+        <event-block sid="622105714977628">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="193626203299590" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="243633677300808" type="System">
+                    <param id="0" name="Layout">level 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="580712076930808">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="716363778638982" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="928063086256138" type="System">
+                    <param id="0" name="Layout">правила</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="984460973847722">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="279282734676605">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="183663817145715">
+            <conditions />
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
