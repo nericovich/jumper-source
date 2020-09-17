@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>level 3 events </name>
+    <events>
+        <event-block sid="288219239701787">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="548460060195839" type="стоячий">
+                    <param id="0" name="Object">ловуха2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="649860919804822" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

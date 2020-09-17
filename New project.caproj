@@ -373,6 +373,19 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="падающий" sid="296498594785454">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="286621209697861">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="710043157425264" speed="5">
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.515152" original-source="C:\Users\egork\OneDrive\Изображения\падающий.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -383,11 +396,11 @@
         <layout>правила.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
-        <event-sheet>Event sheet 3.xml</event-sheet>
-        <event-sheet>Event sheet 4.xml</event-sheet>
-        <event-sheet>Event sheet 5.xml</event-sheet>
+        <event-sheet>level 1 events.xml</event-sheet>
+        <event-sheet>level 2 events.xml</event-sheet>
+        <event-sheet>level 3 events .xml</event-sheet>
+        <event-sheet>menu events.xml</event-sheet>
+        <event-sheet>правила events.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="0" />
