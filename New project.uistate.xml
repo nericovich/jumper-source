@@ -11,14 +11,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">иеню</layout>
+        <layout order="2">правила</layout>
         <layout order="4">level 1</layout>
         <layout order="6">level 2</layout>
         <layout order="8">level 3</layout>
-        <layout order="2">правила</layout>
-        <event-sheet order="5">level 1 events</event-sheet>
-        <event-sheet order="7">level 2 events</event-sheet>
         <event-sheet order="1">menu events</event-sheet>
         <event-sheet order="3">правила events</event-sheet>
+        <event-sheet order="5">level 1 events</event-sheet>
+        <event-sheet order="7">level 2 events</event-sheet>
         <event-sheet active="1" order="9">level 3 events </event-sheet>
     </open-tabs>
     <properties>
