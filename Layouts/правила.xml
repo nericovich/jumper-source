@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="фон" uid="57">
+                <instance type="правила" uid="87">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>427.5</x>
-                        <y>283</y>
+                        <x>424.5</x>
+                        <y>286.5</y>
                         <z>0</z>
-                        <width>856</width>
-                        <height>567</height>
+                        <width>855</width>
+                        <height>578</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

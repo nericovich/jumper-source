@@ -26,5 +26,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="862419481232484">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="556073723915197" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">dsjl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="379574293181468" type="Browser" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

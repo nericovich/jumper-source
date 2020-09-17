@@ -10,10 +10,13 @@
     <unique-id>1ycjg1l27npf2</unique-id>
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
         <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
     </used-plugins>
     <used-behaviors>
@@ -24,6 +27,7 @@
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -189,6 +193,9 @@
                 </behavior-type>
                 <behavior-type name="BoundToLayout" sid="160458496382675">
                     <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="788078914569920">
+                    <behavior id="wrap" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -387,6 +394,66 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Touch" sid="983671306788080">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Browser" sid="960462709531714">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="правила" sid="255824365924742">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="174803048465491" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\egork\OneDrive\Изображения\правила .png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Gamepad" sid="859485605083335">
+            <plugin id="gamepad" />
+        </object-type>
+        <object-type name="dsjl" sid="706019888206934">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526692774632665" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\egork\Downloads\ds[jl.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="мост7" sid="356285468784138">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="228032684617507">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="810799839674278" speed="5">
+                    <frame duration="1" hotspotX="0.502645" hotspotY="0.512195" original-source="C:\Users\egork\OneDrive\Изображения\мост.png">
+                        <collision-poly>
+                            <point x="0.021164" y="0.463415" />
+                            <point x="1" y="0.463415" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="огонь" sid="107769621520847">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="521448827425954" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\egork\Downloads\огонь.png">
+                        <collision-poly>
+                            <point x="0.2" y="0.06" />
+                            <point x="0.64" y="0.02" />
+                            <point x="0.65" y="0.91" />
+                            <point x="0.26" y="0.88" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -395,6 +462,7 @@
         <layout>level 3.xml</layout>
         <layout>иеню.xml</layout>
         <layout>правила.xml</layout>
+        <layout>level 4.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>level 1 events.xml</event-sheet>
@@ -402,11 +470,23 @@
         <event-sheet>level 3 events .xml</event-sheet>
         <event-sheet>menu events.xml</event-sheet>
         <event-sheet>правила events.xml</event-sheet>
+        <event-sheet>level 4 event .xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="0" />
         <global-instance type="Function" uid="3" />
         <global-instance type="LocalStorage" uid="54" />
+        <global-instance type="Touch" uid="84">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" uid="85" />
+        <global-instance type="Gamepad" uid="57">
+            <properties>
+                <analog-deadzone>25</analog-deadzone>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
     <music-folder />

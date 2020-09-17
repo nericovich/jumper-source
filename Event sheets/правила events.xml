@@ -17,5 +17,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="824967663617192">
+            <conditions>
+                <condition id="17" name="On tap object" sid="232368810596958" type="Touch">
+                    <param id="0" name="Object">назад</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="454052787137241" type="System">
+                    <param id="0" name="Layout">иеню</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

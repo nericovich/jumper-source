@@ -13,5 +13,17 @@
                 <action id="-26" name="Restart layout" sid="649860919804822" type="System" />
             </actions>
         </event-block>
+        <event-block sid="452794899410611">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="968694948326412" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">dsjl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="653184772985499" type="Browser" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

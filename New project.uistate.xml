@@ -10,16 +10,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">иеню</layout>
+        <layout active="1" order="0">иеню</layout>
         <layout order="2">правила</layout>
         <layout order="4">level 1</layout>
         <layout order="6">level 2</layout>
         <layout order="8">level 3</layout>
+        <layout order="10">level 4</layout>
         <event-sheet order="1">menu events</event-sheet>
         <event-sheet order="3">правила events</event-sheet>
         <event-sheet order="5">level 1 events</event-sheet>
         <event-sheet order="7">level 2 events</event-sheet>
-        <event-sheet active="1" order="9">level 3 events </event-sheet>
+        <event-sheet order="9">level 3 events </event-sheet>
+        <event-sheet order="11">level 4 event </event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -61,5 +63,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/кн/" />
         <folder expanded="1" path="animation-folder/назад/" />
         <folder expanded="1" path="animation-folder/падающий/" />
+        <folder expanded="1" path="animation-folder/правила/" />
+        <folder expanded="1" path="animation-folder/dsjl/" />
+        <folder expanded="1" path="animation-folder/мост7/" />
+        <folder expanded="1" path="animation-folder/огонь/" />
     </folders-expanded>
 </c2uistate>
