@@ -25,5 +25,17 @@
                 <action id="1" name="Close" sid="653184772985499" type="Browser" />
             </actions>
         </event-block>
+        <event-block sid="197765557558721">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="475772748028725" type="стоячий">
+                    <param id="0" name="Object">мост5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="505451758770171" type="System">
+                    <param id="0" name="Layout">level 4</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

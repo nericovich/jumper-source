@@ -10,6 +10,7 @@
     <unique-id>1ycjg1l27npf2</unique-id>
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
@@ -445,12 +446,28 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="521448827425954" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\egork\Downloads\огонь.png">
                         <collision-poly>
-                            <point x="0.2" y="0.06" />
-                            <point x="0.64" y="0.02" />
-                            <point x="0.65" y="0.91" />
-                            <point x="0.26" y="0.88" />
+                            <point x="0.2675" y="0.085" />
+                            <point x="0.535" y="0.065" />
+                            <point x="0.61" y="0.83" />
+                            <point x="0.295" y="0.855" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="576327422865378">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="слевл" sid="503750581404358">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="929830434371331">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="805434544942223" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\egork\OneDrive\Изображения\с левл.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -485,6 +502,20 @@
         <global-instance type="Gamepad" uid="57">
             <properties>
                 <analog-deadzone>25</analog-deadzone>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="120">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
     </global-instances>

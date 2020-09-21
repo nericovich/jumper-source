@@ -67,5 +67,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/dsjl/" />
         <folder expanded="1" path="animation-folder/мост7/" />
         <folder expanded="1" path="animation-folder/огонь/" />
+        <folder expanded="1" path="animation-folder/слевл/" />
     </folders-expanded>
 </c2uistate>

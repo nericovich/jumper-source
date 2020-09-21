@@ -23,5 +23,33 @@
                 <action id="-26" name="Restart layout" sid="105078327596720" type="System" />
             </actions>
         </event-block>
+        <event-block sid="537062997456906">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="531796715293995" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">dsjl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="911640822468876" type="Browser" />
+            </actions>
+        </event-block>
+        <event-block sid="583973985959629">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="451731934943370" type="стоячий">
+                    <param id="0" name="Object">слевл</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="450160048719209">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="545802874636702" type="стоячий">
+                    <param id="0" name="Object">мост7</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
     </events>
 </c2eventsheet>
