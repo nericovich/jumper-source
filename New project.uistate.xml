@@ -10,18 +10,28 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">иеню</layout>
-        <layout order="2">правила</layout>
-        <layout order="4">level 1</layout>
+        <layout active="1" order="16">иеню</layout>
+        <layout order="0">правила</layout>
+        <layout order="3">level 1</layout>
         <layout order="6">level 2</layout>
-        <layout order="8">level 3</layout>
-        <layout order="10">level 4</layout>
-        <event-sheet order="1">menu events</event-sheet>
-        <event-sheet order="3">правила events</event-sheet>
+        <layout order="7">level 3</layout>
+        <layout order="9">level 4</layout>
+        <layout order="12">level s </layout>
+        <layout order="13">level 6</layout>
+        <layout order="2">level 7</layout>
+        <layout order="18">уровни</layout>
+        <layout order="20">level 5</layout>
+        <event-sheet order="17">menu events</event-sheet>
+        <event-sheet order="1">правила events</event-sheet>
         <event-sheet order="5">level 1 events</event-sheet>
-        <event-sheet order="7">level 2 events</event-sheet>
-        <event-sheet order="9">level 3 events </event-sheet>
+        <event-sheet order="4">level 2 events</event-sheet>
+        <event-sheet order="8">level 3 events </event-sheet>
         <event-sheet order="11">level 4 event </event-sheet>
+        <event-sheet order="10">level s events</event-sheet>
+        <event-sheet order="15">level 6 events</event-sheet>
+        <event-sheet order="14">level 7 events</event-sheet>
+        <event-sheet order="19">уровни events</event-sheet>
+        <event-sheet order="21">level5 events</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -68,5 +78,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/мост7/" />
         <folder expanded="1" path="animation-folder/огонь/" />
         <folder expanded="1" path="animation-folder/слевл/" />
+        <folder expanded="1" path="animation-folder/слевл2/" />
+        <folder expanded="1" path="animation-folder/мост8/" />
+        <folder expanded="1" path="animation-folder/мост9/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/мост10/" />
+        <folder expanded="1" path="animation-folder/мост11/" />
+        <folder expanded="1" path="animation-folder/eujdyb/" />
     </folders-expanded>
 </c2uistate>

@@ -32,8 +32,18 @@
             </actions>
         </event-block>
         <event-block sid="984460973847722">
-            <conditions />
-            <actions />
+            <conditions>
+                <condition id="6" name="On object clicked" sid="918485973024402" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">eujdyb</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="173511142428321" type="System">
+                    <param id="0" name="Layout">уровни</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="279282734676605">
             <conditions />

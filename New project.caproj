@@ -167,6 +167,11 @@
         </object-type>
         <object-type name="ловуха" sid="598225986949796">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="780219301244047">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="188039009122141" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\egork\OneDrive\Изображения\ловуха.png" />
@@ -391,7 +396,14 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="710043157425264" speed="5">
-                    <frame duration="1" hotspotX="0.506024" hotspotY="0.515152" original-source="C:\Users\egork\OneDrive\Изображения\падающий.png" />
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.515152" original-source="C:\Users\egork\OneDrive\Изображения\падающий.png">
+                        <collision-poly>
+                            <point x="0" y="0.242424" />
+                            <point x="1" y="0" />
+                            <point x="0.975904" y="0.424243" />
+                            <point x="0.108434" y="0.909091" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -471,6 +483,163 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="слевл2" sid="843752527538482">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="161864459487691">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380511932878481" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\egork\OneDrive\Изображения\с левл.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="мост8" sid="661498557566868">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="223369888008377">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="587208526835718" speed="5">
+                    <frame duration="1" hotspotX="0.502645" hotspotY="0.512195" original-source="C:\Users\egork\OneDrive\Изображения\мост.png">
+                        <collision-poly>
+                            <point x="0.021164" y="0.463415" />
+                            <point x="1" y="0.463415" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="мост9" sid="363148639174957">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="417289690703892">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974112720434518" speed="5">
+                    <frame duration="1" hotspotX="0.502645" hotspotY="0.512195" original-source="C:\Users\egork\OneDrive\Изображения\мост.png">
+                        <collision-poly>
+                            <point x="0.021164" y="0.463415" />
+                            <point x="1" y="0.463415" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="554956281260149">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="127595815200653" speed="5">
+                    <frame duration="1" hotspotX="0.502024" hotspotY="0.502024" original-source="C:\Users\egork\OneDrive\Изображения\1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="176198973150692">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="200047820606130" speed="5">
+                    <frame duration="1" hotspotX="0.502024" hotspotY="0.502024" original-source="C:\Users\egork\OneDrive\Изображения\2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="407213093907288">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="146898722685801" speed="5">
+                    <frame duration="1" hotspotX="0.502024" hotspotY="0.502024" original-source="C:\Users\egork\OneDrive\Изображения\3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="595632782490223">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="276341323218683" speed="5">
+                    <frame duration="1" hotspotX="0.502024" hotspotY="0.502024" original-source="C:\Users\egork\OneDrive\Изображения\4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="193692225762485">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="175135337871901" speed="5">
+                    <frame duration="1" hotspotX="0.502024" hotspotY="0.502024" original-source="C:\Users\egork\OneDrive\Изображения\5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="711230423140165">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493033515180533" speed="5">
+                    <frame duration="1" hotspotX="0.502024" hotspotY="0.502024" original-source="C:\Users\egork\OneDrive\Изображения\6.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="603999410142560">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="309706740322355" speed="5">
+                    <frame duration="1" hotspotX="0.502024" hotspotY="0.502024" original-source="C:\Users\egork\OneDrive\Изображения\7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="мост10" sid="423641148998349">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="337530175065893">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="245222073284070" speed="5">
+                    <frame duration="1" hotspotX="0.502645" hotspotY="0.512195" original-source="C:\Users\egork\OneDrive\Изображения\мост.png">
+                        <collision-poly>
+                            <point x="0.021164" y="0.463415" />
+                            <point x="1" y="0.463415" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="мост11" sid="335566848658389">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="972601526797784">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="520214329844658" speed="5">
+                    <frame duration="1" hotspotX="0.502645" hotspotY="0.512195" original-source="C:\Users\egork\OneDrive\Изображения\мост.png">
+                        <collision-poly>
+                            <point x="0.021164" y="0.463415" />
+                            <point x="1" y="0.463415" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="eujdyb" sid="993526622709119">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301946169549889" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504673" original-source="C:\Users\egork\OneDrive\Изображения\eujdyb.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -480,6 +649,11 @@
         <layout>иеню.xml</layout>
         <layout>правила.xml</layout>
         <layout>level 4.xml</layout>
+        <layout>level s .xml</layout>
+        <layout>level 6.xml</layout>
+        <layout>level 7.xml</layout>
+        <layout>уровни.xml</layout>
+        <layout>level 5.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>level 1 events.xml</event-sheet>
@@ -488,6 +662,11 @@
         <event-sheet>menu events.xml</event-sheet>
         <event-sheet>правила events.xml</event-sheet>
         <event-sheet>level 4 event .xml</event-sheet>
+        <event-sheet>level s events.xml</event-sheet>
+        <event-sheet>level 6 events.xml</event-sheet>
+        <event-sheet>level 7 events.xml</event-sheet>
+        <event-sheet>уровни events.xml</event-sheet>
+        <event-sheet>level5 events.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="0" />

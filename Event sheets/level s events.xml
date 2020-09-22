@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>level s events</name>
+    <events>
+        <event-block sid="488340778421953">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="874737549819718" type="стоячий">
+                    <param id="0" name="Object">слевл</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="304124353281954" type="System">
+                    <param id="0" name="Layout">level 4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="514886869259339">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="159924630200038" type="стоячий">
+                    <param id="0" name="Object">огонь</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="516306429031522" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

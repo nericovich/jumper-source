@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>уровни events</name>
+    <events>
+        <event-block sid="111575396900768">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="453193644617069" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="456547684669989" type="System">
+                    <param id="0" name="Layout">level 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="510383435150764">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="555018609739147" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="895106931082468" type="System">
+                    <param id="0" name="Layout">level 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="111513318711255">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="339699818242824" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="971227379970793" type="System">
+                    <param id="0" name="Layout">level 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="289797365612698">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="444678787120941" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="887436049955408" type="System">
+                    <param id="0" name="Layout">level 4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="445859402733601">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="380255464792986" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="278409523736174" type="System">
+                    <param id="0" name="Layout">level 5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="771315361500399">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="292837231049037" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="871648664574593" type="System">
+                    <param id="0" name="Layout">level 6</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="324725227596669">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="308898940225311" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="889533920972471" type="System">
+                    <param id="0" name="Layout">level 7</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
